@@ -30,8 +30,9 @@ function clock() {
             break;
     }
     document.getElementById('time').innerHTML = day + " | " + h + ":" + m + ":" + s;
-    setInterval(clock, 1000);
 }
+
+setInterval(clock, 1000);
 
 function checkTime(i) {
     var j = i;
