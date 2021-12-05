@@ -48,3 +48,7 @@ document.getElementById('search').addEventListener('keyup', ({key}) => {
         window.location.href = "https://duckduckgo.com/?&q=" + escape(unsafeQuery);
     }
 });
+
+
+//  /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
+// Made by https://github.com/Artemixed

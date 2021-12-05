@@ -42,6 +42,7 @@ body {
     margin-bottom: 5%;
 }
 
+/* search bar */
 .searchContainer {
     display: flex;
     flex-direction: row;
@@ -80,6 +81,7 @@ body {
     font-family: lexend;
 }
 
+/* Grid containing all logos */
 .grid {
     padding-top: 5%;
     padding-left: 5vw;
@@ -111,13 +113,13 @@ body {
         100px 100px 80px rgba(0, 0, 0, 0.04);
 }
 
-.Box img {
-    height: 50px;
-}
-
 .Box:hover {
     transition: 0.5s;
     background: var(--darkbackdrop);
+}
+
+.Box img {
+    height: 50px;
 }
 
 .background {
@@ -127,3 +129,6 @@ body {
     bottom: 0px;
     backdrop-filter: blur(10px);
 }
+
+ /* /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
+Made by https://github.com/Artemixed */
