@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;600&display=swap');
+
+:root {
+    --blue: #78A0EF;
+    --white: #ffffff;
+    --grey: #CFCCCC;
+    --darkBlue: #030520;
+    --backdrop: rgba(255, 255, 255, 0.110);
+    --darkbackdrop: rgba(255, 255, 255, 0.050);
+}
+
+
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.HeaderText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.HeaderText h1 {
+    margin-top: 5%;
+    font-size: 3rem;
+}
+
+.HeaderText #time {
+    margin-bottom: 5%;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchImage {
+    background: var(--backdrop);
+    backdrop-filter: blur(10px);
+    border-radius: 30px 0px 0px 30px;
+}
+
+.searchImage img {
+    height: 3.29em;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.SearchBar {
+    background: var(--backdrop);
+    backdrop-filter: blur(10px);
+    color: var(--grey);
+    border-radius: 0px 30px 30px 0px;
+    padding: 0.3em;
+    padding-right: 5vw;
+    padding-left: 3vw;
+}
+
+.SearchBar input {
+    height: 3.0999rem;
+    background-color: transparent;
+    color: var(--grey);
+    border: 0;
+    width: 20rem;
+    font-family: lexend;
+}
+
+.grid {
+    padding-top: 5%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 16px;
+    grid-template-rows: auto auto;
+
+}
+
+.Box {
+    display: flex;
+    background: var(--backdrop);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-top: 25%;
+    justify-content: center;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.016),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.02),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.024),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.029),
+        100px 100px 80px rgba(0, 0, 0, 0.04);
+}
+
+.Box img {
+    height: 50px;
+}
+
+.Box:hover {
+    transition: 0.5s;
+    background: var(--darkbackdrop);
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    backdrop-filter: blur(10px);
+}
