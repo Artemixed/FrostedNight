@@ -1,4 +1,4 @@
-# FrostedStartPage
+# Frosted Night StartPage
 
 Heyo! Thanks for taking a look at my first attempt of making a custom startpage! 
 
