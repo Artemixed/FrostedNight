@@ -49,6 +49,10 @@ document.getElementById('search').addEventListener('keyup', ({key}) => {
     }
 });
 
+document.getElementById('searchImage').addEventListener('click', ({key}) => {
+    let unsafeQuery = document.getElementById('search').value;
+    window.location.href = "https://duckduckgo.com/?&q=" + escape(unsafeQuery);
+});
 
 //  /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
 // Made by https://github.com/Artemixed
