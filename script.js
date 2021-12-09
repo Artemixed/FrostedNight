@@ -17,10 +17,10 @@ function clock() {
             day = "Tuesday";
             break;
         case 3:
-            day = "wednesday";
+            day = "Wednesday";
             break;
         case 4:
-            day = "thursday";
+            day = "Thursday";
             break;
         case 5:
             day = "Friday";
