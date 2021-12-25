@@ -9,7 +9,7 @@ Checkout this cool guide over at [HelpDeskGeek](https://helpdeskgeek.com/how-to/
 The link you can set as startpage can be https://artemixed.github.io/FrostedNight/ or download the files locally!
 ## Troubleshooting 
 The page may not look like it's intended to, likely you're using firefox or an older browser.
-When you're using firefox you may need to enable certain features! This can be done by going to:
+When you're using firefox you may need to enable certain features! This can be done by doing the following steps:
 1. Navigate to about:config
 2. set layout.css.backdrop-filter.enabled to true 
 3. set gfx.webrender.all to true
