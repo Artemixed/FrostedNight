@@ -85,6 +85,12 @@ body {
     font-family: lexend;
 }
 
+.SearchBar input:focus,
+    textarea:focus,
+    select:focus {
+    outline: none;
+}
+
 /* Grid containing all logos */
 .grid {
     padding-top: 5%;
@@ -109,6 +115,7 @@ body {
     padding-bottom: 20%;
     margin-top: 25%;
     justify-content: center;
+    transition: 0.5s;
     box-shadow:
         2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
         6.7px 6.7px 5.3px rgba(0, 0, 0, 0.016),
@@ -119,7 +126,6 @@ body {
 }
 
 .Box:hover {
-    transition: 0.5s;
     background: var(--darkbackdrop);
 }
 
@@ -135,5 +141,5 @@ body {
     backdrop-filter: blur(10px);
 }
 
- /* /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
+/* /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
 Made by https://github.com/Artemixed */
