@@ -89,10 +89,6 @@ body {
     font-family: lexend;
 }
 
-.SearchBar input:focus, textarea:focus, select:focus{
-    outline: none;
-}
-
 /* Grid containing all logos */
 .grid {
     padding-top: 5%;
