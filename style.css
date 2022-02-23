@@ -17,6 +17,10 @@ body {
     height: 100vh;
     background-color: var(--darkBlue);
     color: var(--white);
+    background-image: url(/content/background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center bottom;
 }
 
 .container {
@@ -109,6 +113,7 @@ body {
     padding-bottom: 20%;
     margin-top: 25%;
     justify-content: center;
+    transition: 0.2s;
     box-shadow:
         2.8px 2.8px 2.2px rgba(0, 0, 0, 0.011),
         6.7px 6.7px 5.3px rgba(0, 0, 0, 0.016),
@@ -119,7 +124,6 @@ body {
 }
 
 .Box:hover {
-    transition: 0.5s;
     background: var(--darkbackdrop);
 }
 
@@ -127,13 +131,5 @@ body {
     height: 50px;
 }
 
-.background {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    backdrop-filter: blur(10px);
-}
-
- /* /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
+/* /ᐠ｡ꞈ｡ᐟ\ Hey there curious fella ᐠ｡ꞈ｡ᐟ/ᐠ｡ꞈ｡ᐟ\ 
 Made by https://github.com/Artemixed */
